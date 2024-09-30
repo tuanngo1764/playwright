@@ -1,0 +1,46 @@
+[
+    {
+        "name": "dynamicMenuLink",
+        "locator": "//div[@class='header-wrapper']//li[.='{0}']"
+    },
+    {
+        "name": "btnCloseOnJoinNewsletterPopUp",
+        "locator": "//h2[normalize-space(text())='Join newsletter']//following::button[contains(@class,'popmake-close')]"
+    },
+    {
+        "name": "lblProductQuantityInCart",
+        "locator": "//div[@class='header-wrapper']//span[contains(@class,'et_b-icon')]//span[contains(@class,'et-cart-quantity')]"
+    },
+    {
+        "name": "cartIcon",
+        "locator": "//div[@class='header-wrapper']//div[contains(@class,'et_b_header-cart')]//span[contains(@class,'et-svg')]"
+    },
+    {
+        "name": "successNotify",
+        "locator": "//div[@data-type='success']"
+    },
+    {
+        "name": "lblalertMessage",
+        "locator": "//div[@class='woocommerce-message']"
+    },
+    {
+        "name": "lnkLoginOrSignUp",
+        "locator": "//div[contains(@class, 'header-top')]//span[normalize-space(text())='Log in / Sign up']"
+    },
+    {
+        "name": "lblMyAccount",
+        "locator": "//div[@class='header-wrapper']//a[contains(@href, 'my-account')]//following-sibling::span[contains(@class,'element-label')]"
+    },
+    {
+        "name": "lnkStepShoppingCart",
+        "locator": "//div[@class='cart-checkout-nav']//a[normalize-space(text())='Shopping cart']"
+    },
+    {
+        "name": "lnkStepCheckout",
+        "locator": "//div[@class='cart-checkout-nav']//a[normalize-space(text())='Checkout']"
+    },
+    {
+        "name": "lnkStepOrderStatus",
+        "locator": "//div[@class='cart-checkout-nav']//a[normalize-space(text())='Order status']"
+    }
+]

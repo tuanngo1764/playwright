@@ -1,0 +1,38 @@
+[
+    {
+        "name": "thankyouOrderReceivedNotify",
+        "locator": "//p[contains(@class,'thankyou-order-received')]"
+    },
+    {
+        "name": "lblOrderNumber",
+        "locator": "//li[normalize-space(text())='Order number:']/strong"
+    },
+    {
+        "name": "lblOrderDate",
+        "locator": "//li[normalize-space(text())='Date:']/strong"
+    },
+    {
+        "name": "lblOrderTotal",
+        "locator": "//li[normalize-space(text())='Total:']/strong"
+    },
+    {
+        "name": "lblOrderPaymentMethod",
+        "locator": "//li[normalize-space(text())='Payment method:']/strong"
+    },
+    {
+        "name": "dynamicProductTitle",
+        "locator": "//td[contains(@class,'product-name')]/a[normalize-space(text())='{0}']"
+    },
+    {
+        "name": "dynamicLblProductQuantity",
+        "locator": "//td[contains(@class,'product-name')]/a[normalize-space(text())='{0}']/following-sibling::strong[@class='product-quantity']"
+    },
+    {
+        "name": "dynamicLblProductSubTotal",
+        "locator": "//td[contains(@class,'product-name')]/a[normalize-space(text())='{0}']//following::td[contains(@class,'product-total')]/span[contains(@class,'Price-amount')]/bdi"
+    },
+    {
+        "name": "lblOrderTotalAmount",
+        "locator": "//th[normalize-space(text())='Total:']/following-sibling::td/span[contains(@class,'Price-amount')]"
+    }
+]

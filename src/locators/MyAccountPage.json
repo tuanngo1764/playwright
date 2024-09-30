@@ -1,0 +1,38 @@
+[
+    {
+        "name": "txtRegisterEmail",
+        "locator": "//input[@id='reg_email']"
+    },
+    {
+        "name": "btnRegister",
+        "locator": "//button[@name='register']"
+    },
+    {
+        "name": "lblCurrentAccountWelcome",
+        "locator": "//div[contains(@class,'MyAccount-content')]/p/strong"
+    },
+    {
+        "name": "txtNewPassword",
+        "locator": "//input[@id='password_1']"
+    },
+    {
+        "name": "txtConfirmPassword",
+        "locator": "//input[@id='password_2']"
+    },
+    {
+        "name": "btnSavePassword",
+        "locator": "//button[text()='Save']"
+    },
+    {
+        "name": "txtUsername",
+        "locator": "//input[@id='username']"
+    },
+    {
+        "name": "txtPassword",
+        "locator": "//input[@id='password']"
+    },
+    {
+        "name": "btnLogin",
+        "locator": "//button[text()='Log in']"
+    }
+]

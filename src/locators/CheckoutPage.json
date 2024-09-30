@@ -1,0 +1,42 @@
+[
+    {
+        "name": "txtBillingFirstName",
+        "locator": "//input[@id='billing_first_name']"
+    },
+    {
+        "name": "txtBillingLastName",
+        "locator": "//input[@id='billing_last_name']"
+    },
+    {
+        "name": "cbbBillingCountry",
+        "locator": "//select[@id='billing_country']"
+    },
+    {
+        "name": "txtBillingAddress",
+        "locator": "//input[@id='billing_address_1']"
+    },
+    {
+        "name": "txtBillingCity",
+        "locator": "//input[@id='billing_city']"
+    },
+    {
+        "name": "txtBillingPhone",
+        "locator": "//input[@id='billing_phone']"
+    },
+    {
+        "name": "txtBillingEmail",
+        "locator": "//input[@id='billing_email']"
+    },
+    {
+        "name": "btnPlaceOrder",
+        "locator": "//button[@id='place_order']"
+    },
+    {
+        "name": "chbCreateAnAccount",
+        "locator": "//input[@id='createaccount']"
+    },
+    {
+        "name": "dynamicPaymentMethodChb",
+        "locator": "//label[normalize-space(.)='{0}']/preceding-sibling::input"
+    }
+]

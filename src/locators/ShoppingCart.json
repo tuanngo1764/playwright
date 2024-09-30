@@ -1,0 +1,42 @@
+[
+    {
+        "name": "dynamicLblProductTitle",
+        "locator": "//a[@class='product-title' and text()='{0}']"
+    },
+    {
+        "name": "dynamicLblProductPrice",
+        "locator": "//a[@class='product-title' and text()='{0}']//following::td[@class='product-price']//bdi"
+    },
+    {
+        "name": "dynamicTxtProductQuantity",
+        "locator": "//a[@class='product-title' and text()='{0}']//following::td[@class='product-quantity']//input"
+    },
+    {
+        "name": "dynamicTxtProductSubTotal",
+        "locator": "//a[@class='product-title' and text()='{0}']//following::td[@class='product-subtotal']//bdi"
+    },
+    {
+        "name": "lblCartTotalAmount",
+        "locator": "//td[@data-title='Total']//bdi"
+    },
+    {
+        "name": "lnkClearShoppingCart",
+        "locator": "//a[@class='clear-cart' and normalize-space()='Clear shopping cart']"
+    },
+    {
+        "name": "lblShoppingCartEmptyTitle",
+        "locator": "//div[contains(@class,'cart-empty')]/h1"
+    },
+    {
+        "name": "lnkReturnToShop",
+        "locator": "//a[contains(@class,'return-shop') and normalize-space(text())='Return to shop']"
+    },
+    {
+        "name": "btnReturnToShop",
+        "locator": "//a[contains(@href,'/shop/') and contains(@class,'btn')]/span[normalize-space(text())='Return To Shop']"
+    },
+    {
+        "name": "lnkProceedToCheckout",
+        "locator": "//div[contains(@class,'proceed-to-checkout')]//a[normalize-space(text())='Proceed to checkout']"
+    }
+]

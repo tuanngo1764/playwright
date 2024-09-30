@@ -1,0 +1,25 @@
+{
+  "name": "practive---playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=chrome",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:msedge": "npx playwright test --project=msedge",
+    "show-report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1"
+  }
+}

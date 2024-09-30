@@ -1,0 +1,10 @@
+[
+    {
+        "name": "dynamicCardProduct",
+        "locator": "//h2[@class='product-title']/a[text()='{0}']//ancestor::div[contains(@class,'content-product')]"
+    },
+    {
+        "name": "dynamicIconCartOnCardProduct",
+        "locator": "//footer[contains(@class,'footer-product')]//a[@data-product_name='{0}' and contains(@class,'add_to_cart_button')]"
+    }
+]
